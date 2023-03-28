@@ -28,11 +28,6 @@ header {
     display: flex;
     width: 100%;
     list-style: none;
-    /* column-gap: 200px;
-    padding-right: 200px; */
-    /* margin-left: ao; */
-    /* justify-content: center;
-    justify-content: space-evenly;  */
 }
 
 nav li a {
@@ -467,13 +462,13 @@ div section h2 {
         color: #ADA2FF;
     }
 
-    header {
-        /* display: grid;
+    /* header {
+        display: grid;
         max-width: 768px;
         width: 100vw;
         grid-template-rows: 1fr;
-        grid-template-columns: repeat(4, 1fr); */
-    }
+        grid-template-columns: repeat(4, 1fr);
+    } */
 
     nav li a {
         font-size: 27px;
