@@ -1,0 +1,101 @@
+main {
+    .main-banner {
+        background-image: url(../assets/portada.png);
+        width: 100%;
+        height: 1000px;
+        background-position: center;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+
+        h1 {
+            grid-row: 1/2;
+            grid-column: 3/7;
+            font-family: 'Inspiration', cursive;
+            font-size: 200px;
+            font-weight: 100;
+            padding-left: 10%;
+            color: #FFE5F1;
+        }
+
+        p {
+            grid-column: 2/7;
+            grid-row: 6/8;
+            font-family: 'Cuprum', sans-serif;
+            font-size: 50px;
+            text-indent: 10px;
+            color: #FFF8E1;
+            padding-top: 20px;
+            padding-left: 100px;
+        }
+    }
+
+    .gallery-banner {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 50px 50px 100px 50px;
+        background-color: #95C8FF;
+
+        div {
+            h2 {
+                font-family: 'Inspiration', cursive;
+                margin-bottom: 10%;
+                font-size: 110px;
+                font-weight: 100;
+                text-indent: 10px;
+                padding: 10px;
+                color: #FFF8E1;
+            }
+
+            p {
+                font-family: 'Cuprum', sans-serif;
+                font-size: 50px;
+                text-indent: 10px;
+                color: #FFF8E1;
+                padding: 10px;
+                align-items: center;
+                justify-content: left;
+            }
+        }
+    }
+
+    .album-banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        column-gap: 250px;
+        width: 100%;
+        background-color: #ADA2FF;
+
+        .section-three {
+            h2 {
+                justify-content: right;
+                font-family: 'Inspiration', cursive;
+                font-size: 100px;
+                font-weight: 100;
+                text-indent: 10px;
+                /* padding: 10px; */
+                padding-top: 10%;
+                padding-left: -10%;
+                /* margin-right: 5%; */
+                color: #FFF8E1;
+            }
+
+            p {
+                font-family: 'Cuprum', sans-serif;
+                font-size: 50px;
+                text-indent: 10px;
+                margin-left: 1%;
+                /* flex-direction: column;
+                justify-content: right; */
+                color: #FFF8E1;
+
+
+            }
+
+
+        }
+    }
+}

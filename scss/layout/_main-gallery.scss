@@ -1,0 +1,36 @@
+main {
+    background-color: #95C8FF;
+    .tittle-4 {
+        display: flex;
+        justify-content: center;
+
+        h2 {
+            font-family: 'Inspiration', cursive;
+            margin-bottom: 10%;
+            font-size: 110px;
+            font-weight: 100;
+            text-indent: 10px;
+            padding: 10px;
+            color: #FFF8E1;
+
+        }
+    }
+
+    .nueva-galeria {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0px 100px;
+
+        section {
+            display: flex;
+            justify-content: center;
+
+            figure {
+                img {
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+}

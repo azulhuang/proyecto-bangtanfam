@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FFE5F1;
+    footer h3 {
+        font-family: 'Cuprum', sans-serif;
+        font-size: 20px;
+        text-indent: 10px;
+        /* align-items: center; */
+        color: #ADA2FF;
+    }
+    footer h3 a {
+        text-decoration: none;
+    }
+}

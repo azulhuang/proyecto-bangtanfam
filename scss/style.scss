@@ -1,1 +1,8 @@
-header{background-color: aqua;}
+@import "base/reset";
+@import "base/typo";
+@import "layout/header";
+@import "layout/main-index";
+@import "layout/main-gallery";
+@import "layout/music";
+@import "layout/registration";
+@import "layout/footer";

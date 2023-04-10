@@ -1,0 +1,20 @@
+.registro{
+    display: grid;
+    width: 100%;
+    padding: 50px 200px 100px 200px;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 25px;
+    text-indent: 10px;
+    color: #95C8FF;
+    background-color: #FFE5F1;
+    .btn-primary {
+        background-color: #95C8FF;
+        border-width: 0px;
+        font-family: 'Cuprum', sans-serif;
+        font-size: 30px;
+        text-indent: 10px;
+        color: #FFF8E1;
+    }
+}
