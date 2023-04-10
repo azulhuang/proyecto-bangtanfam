@@ -1,0 +1,25 @@
+@media (max-width:620px) {
+    main {
+        .tittle-4 {
+            h2 {
+                font-size: 100px;
+            }
+        }
+
+        .nueva-galeria {
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 100%;
+            padding: 0px;
+            gap: 20px;
+
+            section {
+                figure {
+                    img {
+                        max-width: 250px;
+                    }
+                }
+            }
+        }
+    }
+}
