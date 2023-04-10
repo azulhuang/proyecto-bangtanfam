@@ -1,10 +1,7 @@
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100vw;
+    @include flex (row,space-between,100vw);
     align-items: center;
-    background-color: #ADA2FF;
+    background-color: $background-lila;
 }
 
 .nav-link {
@@ -41,7 +38,7 @@ header {
 }
 
 .bg-body-tertiary{
-    background-color: #ADA2FF!important;
+    background-color: $background-lila !important;
     font-family: 'Cuprum', sans-serif;
     font-size: 20px;
     text-indent: 10px;

@@ -99,8 +99,8 @@ main .album-banner {
   display: flex;
   flex-direction: row;
   justify-content: right;
-  column-gap: 250px;
   width: 100%;
+  column-gap: 250px;
   background-color: #ADA2FF; }
   main .album-banner .section-three h2 {
     justify-content: right;
