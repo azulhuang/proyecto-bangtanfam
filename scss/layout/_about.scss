@@ -6,7 +6,7 @@ main {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 500px 1fr 1fr 1fr;
         row-gap: 10px;
-        column-gap: 20px;
+        column-gap: 25px;
         padding-left: 15px;
         padding-right: 15px;
         place-items: center;
@@ -33,6 +33,12 @@ main {
         .gallery-pics1 {
             grid-row: 2/3;
             grid-column: 1/2;
+            div{
+                img{
+                    padding-bottom: 10px;
+                    padding-left: 20px;
+                }
+            }
 
             div {
                 ul {
@@ -40,7 +46,7 @@ main {
                         font-family: 'Cuprum', sans-serif;
                         font-size: 20px;
                         text-indent: 10px;
-                        padding: 10px;
+                        padding: 5px;
                         border: 5px;
                         color: #FFF8E1;
                         display: list-item;
@@ -52,6 +58,12 @@ main {
         .gallery-pics2 {
             grid-row: 2/3;
             grid-column: 2/3;
+            div{
+                img{
+                    padding-bottom: 10px;
+                    padding-left: 20px;
+                }
+            }
 
             div {
                 ul {
@@ -59,7 +71,7 @@ main {
                         font-family: 'Cuprum', sans-serif;
                         font-size: 20px;
                         text-indent: 10px;
-                        padding: 10px;
+                        padding: 5px;
                         border: 5px;
                         color: #FFF8E1;
                         display: list-item;
@@ -71,6 +83,11 @@ main {
         .gallery-pics3 {
             grid-row: 2/3;
             grid-column: 3/4;
+            div{
+                img{
+                    padding-bottom: 10px;
+                }
+            }
 
             div {
                 ul {
@@ -78,7 +95,7 @@ main {
                         font-family: 'Cuprum', sans-serif;
                         font-size: 20px;
                         text-indent: 10px;
-                        padding: 10px;
+                        padding: 5px;
                         border: 5px;
                         color: #FFF8E1;
                         display: list-item;
@@ -90,6 +107,12 @@ main {
         .gallery-pics4 {
             grid-row: 3/4;
             grid-column: 1/2;
+            div{
+                img{
+                    padding-bottom: 10px;
+                    padding-left: 40px;
+                }
+            }
 
             div {
                 ul {
@@ -97,7 +120,7 @@ main {
                         font-family: 'Cuprum', sans-serif;
                         font-size: 20px;
                         text-indent: 10px;
-                        padding: 10px;
+                        padding: 5px;
                         border: 5px;
                         color: #FFF8E1;
                         display: list-item;
@@ -109,6 +132,12 @@ main {
         .gallery-pics5 {
             grid-row: 3/4;
             grid-column: 2/3;
+            div{
+                img{
+                    padding-bottom: 10px;
+                    padding-left: 40px;
+                }
+            }
 
             div {
                 ul {
@@ -116,7 +145,7 @@ main {
                         font-family: 'Cuprum', sans-serif;
                         font-size: 20px;
                         text-indent: 10px;
-                        padding: 10px;
+                        padding: 5px;
                         border: 5px;
                         color: #FFF8E1;
                         display: list-item;
@@ -128,6 +157,12 @@ main {
         .gallery-pics6 {
             grid-row: 3/4;
             grid-column: 3/4;
+            div{
+                img{
+                    padding-bottom: 10px;
+                    padding-left: 45px;
+                }
+            }
 
             div {
                 ul {
@@ -135,7 +170,7 @@ main {
                         font-family: 'Cuprum', sans-serif;
                         font-size: 20px;
                         text-indent: 10px;
-                        padding: 10px;
+                        padding: 5px;
                         border: 5px;
                         color: #FFF8E1;
                         display: list-item;
@@ -144,28 +179,16 @@ main {
             }
         }
 
-        .gallery-pics7 {
-            grid-row: 4/5;
-            grid-column: 1/2;
-
-            div {
-                ul {
-                    li {
-                        font-family: 'Cuprum', sans-serif;
-                        font-size: 20px;
-                        text-indent: 10px;
-                        padding: 10px;
-                        border: 5px;
-                        color: #FFF8E1;
-                        display: list-item;
-                    }
-                }
-            }
-        }
 
         .gallery-pics8 {
             grid-row: 4/5;
             grid-column: 2/3;
+            div{
+                img{
+                    padding-bottom: 10px;
+                    padding-left: 45px;
+                }
+            }
 
             div {
                 ul {
@@ -173,7 +196,7 @@ main {
                         font-family: 'Cuprum', sans-serif;
                         font-size: 20px;
                         text-indent: 10px;
-                        padding: 10px;
+                        padding: 5px;
                         border: 5px;
                         color: #FFF8E1;
                         display: list-item;

@@ -1,6 +1,22 @@
-main {
+.section-lightblue {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     background-color: $background-principal;
-    height: 100%;
+
+    h2 {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Inspiration', cursive;
+        margin-bottom: 10%;
+        font-size: 110px;
+        font-weight: 100;
+        text-indent: 10px;
+        padding-top: 50px;
+        align-items: center;
+        color: #FFE5F1;
+    }
+
 
     div {
         ul {
@@ -8,7 +24,7 @@ main {
                 font-family: 'Cuprum', sans-serif;
                 font-size: 20px;
                 text-indent: 10px;
-                padding: 10px;
+                padding: 5px;
                 border: 5px;
                 color: #FFF8E1;
                 display: list-item;
