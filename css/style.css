@@ -203,7 +203,7 @@ main .section-grid {
     grid-column: 1/2; }
     main .section-grid .gallery-pics1 div img {
       padding-bottom: 10px;
-      padding-left: 20px; }
+      padding-left: 18px; }
     main .section-grid .gallery-pics1 div ul li {
       font-family: 'Cuprum', sans-serif;
       font-size: 20px;
@@ -217,7 +217,7 @@ main .section-grid {
     grid-column: 2/3; }
     main .section-grid .gallery-pics2 div img {
       padding-bottom: 10px;
-      padding-left: 20px; }
+      padding-left: 15px; }
     main .section-grid .gallery-pics2 div ul li {
       font-family: 'Cuprum', sans-serif;
       font-size: 20px;
@@ -244,7 +244,7 @@ main .section-grid {
     grid-column: 1/2; }
     main .section-grid .gallery-pics4 div img {
       padding-bottom: 10px;
-      padding-left: 40px; }
+      padding-left: 35px; }
     main .section-grid .gallery-pics4 div ul li {
       font-family: 'Cuprum', sans-serif;
       font-size: 20px;
@@ -272,7 +272,7 @@ main .section-grid {
     grid-column: 3/4; }
     main .section-grid .gallery-pics6 div img {
       padding-bottom: 10px;
-      padding-left: 45px; }
+      padding-left: 35px; }
     main .section-grid .gallery-pics6 div ul li {
       font-family: 'Cuprum', sans-serif;
       font-size: 20px;
@@ -286,7 +286,7 @@ main .section-grid {
     grid-column: 2/3; }
     main .section-grid .gallery-pics8 div img {
       padding-bottom: 10px;
-      padding-left: 45px; }
+      padding-left: 15px; }
     main .section-grid .gallery-pics8 div ul li {
       font-family: 'Cuprum', sans-serif;
       font-size: 20px;
@@ -512,7 +512,7 @@ footer {
       padding-top: 20%;
       display: flex;
       align-items: center;
-      font-size: 25px; }
+      font-size: 20px; }
     main .section-grid .gallery-pics1 {
       grid-column: 1/4;
       grid-row: 2/3;
@@ -522,11 +522,11 @@ footer {
       flex-direction: column;
       align-items: center; }
       main .section-grid .gallery-pics1 div img {
-        max-width: 100px; }
+        max-width: 150px; }
       main .section-grid .gallery-pics1 div ul {
         width: 100vw li;
           width-font-size: 10px;
-          width-padding: 5px; }
+          width-padding: 1px; }
     main .section-grid .gallery-pics2 {
       grid-column: 1/4;
       grid-row: 3/4;
@@ -536,11 +536,11 @@ footer {
       flex-direction: column;
       align-items: center; }
       main .section-grid .gallery-pics2 div img {
-        max-width: 70px; }
+        max-width: 150px; }
       main .section-grid .gallery-pics2 div ul {
         width: 100vw li;
           width-font-size: 10px;
-          width-padding: 5px; }
+          width-padding: 1px; }
     main .section-grid .gallery-pics3 {
       grid-column: 1/4;
       grid-row: 4/5;
@@ -550,11 +550,11 @@ footer {
       flex-direction: column;
       align-items: center; }
       main .section-grid .gallery-pics3 div img {
-        max-width: 70px; }
+        max-width: 150px; }
       main .section-grid .gallery-pics3 div ul {
         width: 100vw li;
           width-font-size: 10px;
-          width-padding: 5px; }
+          width-padding: 1px; }
     main .section-grid .gallery-pics4 {
       grid-column: 1/4;
       grid-row: 5/6;
@@ -564,11 +564,11 @@ footer {
       flex-direction: column;
       align-items: center; }
       main .section-grid .gallery-pics4 div img {
-        max-width: 70px; }
+        max-width: 200px; }
       main .section-grid .gallery-pics4 div ul {
         width: 100vw li;
           width-font-size: 10px;
-          width-padding: 5px; }
+          width-padding: 1px; }
     main .section-grid .gallery-pics5 {
       grid-column: 1/4;
       grid-row: 6/7;
@@ -578,11 +578,11 @@ footer {
       flex-direction: column;
       align-items: center; }
       main .section-grid .gallery-pics5 div img {
-        max-width: 70px; }
+        max-width: 150px; }
       main .section-grid .gallery-pics5 div ul {
         width: 100vw li;
           width-font-size: 10px;
-          width-padding: 5px;
+          width-padding: 1px;
           width-width: 100vw; }
     main .section-grid .gallery-pics6 {
       grid-column: 1/4;
@@ -593,11 +593,11 @@ footer {
       flex-direction: column;
       align-items: center; }
       main .section-grid .gallery-pics6 div img {
-        max-width: 70px; }
+        max-width: 150px; }
       main .section-grid .gallery-pics6 div ul {
         width: 100vw li;
           width-font-size: 10px;
-          width-padding: 5px; }
+          width-padding: 1px; }
     main .section-grid .gallery-pics8 {
       grid-column: 1/4;
       grid-row: 8/9;
@@ -607,8 +607,8 @@ footer {
       flex-direction: column;
       align-items: center; }
       main .section-grid .gallery-pics8 div img {
-        max-width: 70px; }
+        max-width: 150px; }
       main .section-grid .gallery-pics8 div ul {
         width: 100vw li;
           width-font-size: 10px;
-          width-padding: 5px; } }
+          width-padding: 1px; } }
