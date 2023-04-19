@@ -36,6 +36,7 @@ main {
         align-items: center;
         height: 700px;
         padding: 50px 50px 100px 50px;
+        column-gap: 200px;
         background-color: $background-principal;
 
         div {
@@ -62,12 +63,9 @@ main {
     }
 
     .album-banner {
-        @include flex (row, right, 100vw);
-        column-gap: 200px;
-        height: 700px;
-        padding: 50px 50px 100px 50px;
-        align-items: center;
         background-color: $background-lila;
+        @include flex (row, right, 100vw);
+        @extend .gallery-banner;
 
         .section-three {
             h2 {

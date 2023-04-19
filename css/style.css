@@ -72,13 +72,14 @@ main {
       color: #FFF8E1;
       padding-top: 20px;
       padding-left: 100px; }
-  main .gallery-banner {
+  main .gallery-banner, main .album-banner {
     display: flex;
     align-items: center;
     height: 700px;
     padding: 50px 50px 100px 50px;
+    column-gap: 200px;
     background-color: #95C8FF; }
-    main .gallery-banner div h2 {
+    main .gallery-banner div h2, main .album-banner div h2 {
       font-family: 'Inspiration', cursive;
       margin-bottom: 10%;
       font-size: 110px;
@@ -86,7 +87,7 @@ main {
       text-indent: 10px;
       padding: 10px;
       color: #FFF8E1; }
-    main .gallery-banner div p {
+    main .gallery-banner div p, main .album-banner div p {
       font-family: 'Cuprum', sans-serif;
       font-size: 50px;
       text-indent: 10px;
@@ -95,15 +96,11 @@ main {
       align-items: center;
       justify-content: left; }
   main .album-banner {
+    background-color: #ADA2FF;
     display: flex;
     flex-direction: row;
     justify-content: right;
-    width: 100vw;
-    column-gap: 200px;
-    height: 700px;
-    padding: 50px 50px 100px 50px;
-    align-items: center;
-    background-color: #ADA2FF; }
+    width: 100vw; }
     main .album-banner .section-three h2 {
       justify-content: right;
       font-family: 'Inspiration', cursive;
