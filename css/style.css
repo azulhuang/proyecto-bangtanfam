@@ -612,3 +612,7 @@ footer {
         width: 100vw li;
           width-font-size: 10px;
           width-padding: 1px; } }
+
+@media (max-width: 426px) {
+  .section-lightblue h2 {
+    font-size: 60px; } }

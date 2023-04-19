@@ -4,6 +4,7 @@
     }
 }
 
+// about
 @media (max-width:426px) {
     main {
         .section-grid {
@@ -224,4 +225,12 @@
     }
 
 
+}
+
+@media (max-width: 426px) {
+    .section-lightblue {
+        h2{
+            font-size: 60px;
+        }
+    }
 }
