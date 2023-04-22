@@ -1,5 +1,5 @@
 header {
-    @include flex (row,space-between,100vw);
+    @include flex (row,space-between,100%);
     align-items: center;
     background-color: $background-lila;
 }
