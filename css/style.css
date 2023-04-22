@@ -614,9 +614,9 @@ footer {
     padding: 5px;
     column-gap: 10px; }
     main .album-banner div img {
-      max-width: 145px; }
+      max-width: 160px; }
     main .album-banner .section-three h2 {
-      font-size: 25px;
+      font-size: 20px;
       text-align: center; }
     main .album-banner .section-three p {
       font-size: 10px;
@@ -638,9 +638,11 @@ footer {
       grid-row: 1/2;
       width: 100%;
       padding-top: 20%;
+      margin-top: 10%;
+      padding-left: 10%;
       display: flex;
       align-items: center;
-      font-size: 20px; }
+      font-size: 40px; }
     main .section-grid .gallery-pics1 {
       grid-column: 1/4;
       grid-row: 2/3;
